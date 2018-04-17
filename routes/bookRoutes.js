@@ -43,7 +43,7 @@ let routes = function (Book) {
                     res.status(201).send(book);
                 }
             });
-            res.status(201).send(book);
+           // res.status(201).send(book);
         }).patch(function (req, res) {
             if (req.body._id) {
                 delete req.body._id;
